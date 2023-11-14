@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Черновик</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="user-container">
+        <div class="border-user-photo">
+            <img id="user-photo" alt="User Photo">
+        </div>
+        <div class="text-btn">
+            <div id="user-info"></div>
+            <div id="error-message"></div>
+            <div class="loader" id="loader"></div>
+            <button class="btn" onclick="fetchUser()" id="fetchButton">Fetch User</button>
+        </div>
+    </div>
+
+    <!-- promise -->
+    <script src="main.js"></script>
+
+    <!-- async/await -->
+    <!-- <script src="main_2.js"></script> -->
+</body>
+</html>
